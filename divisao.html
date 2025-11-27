@@ -1,0 +1,40 @@
+
+        </script><!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Divisão</title>
+</head>
+<body>
+    <h1>Calculadora de Divisão</h1>
+    <script>
+        // Valores de entrada
+        let dividendo = prompt("Digite o dividendo:");
+        let divisor = prompt("Digite o divisor:");
+        
+        // Converte os valores para números inteiros
+        dividendo = parseInt(dividendo);
+        divisor = parseInt(divisor);
+        
+        // Calcula o quociente e o resto
+        let quociente = Math.floor(dividendo / divisor);
+        let resto = dividendo % divisor;
+        
+        // Saída
+        document.write("Dividendo: " + dividendo + "<br/>");
+        document.write("Divisor: " + divisor + "<br/>");
+        document.write("Quociente: " + quociente + "<br/>");
+        document.write("Resto: " + resto + "<br/>");
+        //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+        //O document.write  não funciona da mesma forma que o alert :
+
+
+        //document.write adiciona conteúdo ao corpo da página HTML, podendo incluir formatação HTML, mas não exige interação do usuário.
+
+        //alert exibe uma mensagem em um pop-up, pausando a execução até o usuário clicar em "OK", mas não altera a página.
+       //Atualmente é mais recomendado utilizar document.getElementById("resultado").innerHTML = "Olá, mundo!"; no lugar de document.write
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro JS</title>
+</head>
+<body>
+    
+    <h1 id="ola"></h1>
+    <script> //nessa parte ela do document.getElement ById- chamou o id(lembre-se que o ID atribuído foi "Olá") da tag h1 pelo document.getElemntBYID//
+    document.getElementById("ola").textContent= "olá mundo" //depois ela adicionou .textContent="olá mundo",para que ele seja escrito na página HTML
+    alert ('Ola, Mundo');
+//------------------------------------------------------------------------------------------------------------------------------------------------------
+//Como funciona textContent:
+
+//A propriedade textContent define ou retorna o conteúdo de texto de um elemento HTML. No seu caso, ela está sendo usada para definir o texto do elemento <h1> com o ID "olá".
+//Melhorias adicionais:
+//Boas práticas com IDs:
+//Evite usar caracteres especiais (como "á") em IDs. Prefira IDs em inglês ou sem acentos, como "ola".
+//Uso de const ou let:
+//No seu código, você usou let para declarar a variável nome, o que está correto. Mas, se o valor não for alterado posteriormente, prefira usar const.
+
+        let nome = prompt ("Digite seu nome") 
+  //* Usando 'let' para declarar uma variável chamada 'nome'.
+// *'let' é uma palavra-chave do JavaScript que permite criar variáveis que podem ser alteradas posteriormente.
+//* O 'prompt' exibe uma caixa de diálogo para o usuário inserir um valor.
+//* O valor digitado pelo usuário é armazenado na variável 'nome'.
+
+//*exercício 1// Para somar atribuímos uma variável chamada Var n1 na frente do prompt para quardar o que o usuário digitou na entrada
+            
+      var  n1 = prompt("Digite um número:");
+       var n2= prompt("Digite o segundo numero");
+       
+       alert(n1+n2) ;
+//se digitarmos o n1+ n2 sem definir qual é o tipo de dado ele não vai somar,apenas concatener as Strings
+
+</script>
+</body>
+</html>
+
+

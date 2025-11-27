@@ -1,0 +1,33 @@
+
+        </script><!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Minutos Desde o Início do Dia</title>
+</head>
+<body>
+    <h1>Calculadora de Minutos</h1>
+    <script>
+        // Solicita a hora do usuário
+        let hora = prompt("Digite a hora (0 a 23):");
+        
+        // Converte a hora para número
+        hora = parseInt(hora);
+        
+        // Calcula os minutos (1 hora = 60 minutos)
+        let minutos = hora * 60;
+        
+        // Fluxo Geral da Lógica para testar com exercícios parecidos:
+//Quando o usuário abre uma página no navegador:
+//A página exibe o título "Calculadora de Minutos".
+//Um prompt aparece solicitando para digitar uma hora (0 a 23).
+//O usuário insere um valor (ex.: "14").
+//O código:
+//Converta a entrada para um número inteiro (14).
+//Multiplique por 60 para calcular os minutos (14 * 60 = 840).
+//Exibe um alerta com a mensagem "Desde o início do dia, passaram-se 840 minutos.".
+
+        alert("Desde o início do dia, passaram-se " + minutos + " minutos.");
+    </script>
+</body>
+</html>
